@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bstore</title>
+    <!-- font awsome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- render all element normally -->
+    <link rel="stylesheet" href="css/nrmalize.css">
+    <!-- css file -->
+    <link rel="stylesheet" href="css/master.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="info">
+            <div class="container">
+
+                <ul class="right">
+                    <li>Welcome <span>Bstore</span></li>
+                    <li>Currency :<span>USD</span></li>
+                    <li>Language <span>English</span></li>
+                </ul>
+                <ul class="left">
+                    <li><a href="#"> Check Out</a></li>
+                    <li><a href="#"> Wishlist</a></li>
+                    <li><a href="#"> My Account</a></li>
+                    <li><a href="#"> My Cart</a></li>
+                    <li><a href="#"> Sign in</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="bg">
+            <div class="logo">
+                <div class="image">
+                    <img src="images/logo.webp" alt="logo">
+                </div>
+                <div class="contact">
+                    <i class="fa-solid fa-phone"></i>
+                    <div>
+                        <h2>Call Us Free</h2>
+                        <span>0(12)3-456-789</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <div class="links">
+                <div class="fas fa-bars toggle-menue"></div>
+                <ul>
+                    <li class="active"><a href="#">HOME</a></li>
+                    <li><a href="#">WOMEN</a></li>
+                    <li><a href="#">MEN</a></li>
+                    <li><a href="#">CLOTHING</a></li>
+                    <li><a href="#">TOPS</a></li>
+                    <li><a href="#">T-SHIRT</a></li>
+                    <li><a href="#">PAGE</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                </ul>
+            </div>
+            <div class="mycart">
+                <div class="cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span>MY CART</span>
+                </div>
+                <span class="count">2</span>
+            </div>
+        </nav>
+    </div>
+    <!-- -------------------------------------------------------------------------------------- -->
+    <!-- Start Main Content Secion -->
+    <section class="main-content">
+        <div class="container">
+            <!-- Start Top Conent -->
+            <div class="breadcrumb">
+                <a href="#">Home</a>
+                <span><i class="fa fa-caret-right"></i></span>
+                <a href="#">Women</a>
+            </div>
+            <!-- End Top Conent -->
+            <div class="content">
+                <!-- Start Left Content -->
+                <div class="left-content">
+                    <!-- Start l-content titele -->
+                    <h2 class="page-title">Catalog</h2>
+                    <!-- End l-content titele -->
+                    <!-- Start Enabled Filters -->
+                    <div class="sidebar-box">
+                        <span class="sidebar-title">enabled filters</span>
+                        <ul>
+                            <li>
+                                <span>Categories:Dresses</span>
+                                <i class="fa-solid fa-x"></i>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- End Enabled Filters -->
+
+                    <!-- Start Categories Sidebar -->
+                    <div class="sidebar-box">
+                        <span class="sidebar-title">CATEGORIES</span>
+                        <ul>
+                            <li>
+                                <input type="checkbox">
+                                <a href="#">Tops <span>(12)</span> </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- End Categories Sidebar -->
+
+                    <!-- Start Availability Sidebar -->
+                    <div class="sidebar-box">
+                        <span class="sidebar-title">AVAILABILITY</span>
+                        <ul>
+                            <li>
+                                <input type="checkbox">
+                                <a href="#">InStock <span>(12)</span> </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- End Availability Sidebar -->
+
+                    <!-- Start Price Sidebar -->
+                    <div class="sidebar-box">
+                        <span class="sidebar-title">PRICE</span>
+                        <strong>Range:</strong>
+                            <div class="range-box">                                
+                                <label for="">min</label>
+                                <input type="number">
+                            </div>
+                            <div class="range-box">
+                                <label for="">max</label>
+                                <input type="number">
+                            </div>
+                    </div>
+                    <!-- End Price Sidebar -->
+
+                    <!-- Start Size Sidebar -->
+                    <div class="sidebar-box">
+                        <span class="sidebar-title">SIZE</span>
+                        <ul>
+                            <li>
+                                <input type="checkbox">
+                                <a href="#">L <span>(12)</span></a>
+                            </li>
+                            <li>
+                                <input type="checkbox">
+                                <a href="#">M <span>(12)</span></a>
+                            </li>
+                            <li>
+                                <input type="checkbox">
+                                <a href="#">S <span>(12)</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- End Size Sidebar -->
+
+                    <!-- Start Color Sidebar -->
+                    <div class="sidebar-box">
+                        <span class="sidebar-title">COLOR</span>
+                        <ul>
+                            <li>
+                                <i></i>
+                                <a href="">orange <span>(12)</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- End Color Sidebar -->
+
+                    <!-- Start Tags SideBar -->
+                    <div class="sidebar-box">
+                        <span class="sidebar-title">TAGS</span>
+                        <div class="tags-box">
+                            <a class="tag-attr">Fashion</a>
+                            <a class="tag-attr">Men</a>
+                            <a class="tag-attr">Kids</a>
+                            <a class="tag-attr">Clothing</a>
+                        </div>
+                    </div>
+                    <!-- End Tags SideBar -->
+                </div>
+                <!-- End Left Content -->
+
+                <!-- Start Right Conent -->
+                <div class="right-content">
+                    <div class="category-header">
+                        <img src="images/category-header.webp" alt="">
+                        <div class="text">
+                            <h2>Women</h2>
+                            <p>You will find here all woman fashion collections.</p>
+                            <p>This category includes all the basics of your wardrobe and much more:<br>
+                                shoes, accessories, printed t-shirts, feminine dresses, women's jeans!</p>                    
+                        </div>
+                    </div>
+                    <div class="category-title">
+                        <h1>
+                            <span class="cat-name">Women</span>
+                            <span class="product-count">There are 13 Product</span>
+                        </h1>
+                    </div>
+                    <div class="category-products">
+                        <div class="item">
+                            <div class="product-image">
+                                <a href=""><img src="images/product.png" alt=""></a>
+                                <a href="" class="new-mark">New</a>
+                                <div class="overlay-content">
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-search"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-shopping-cart"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-retweet"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa-regular fa-heart"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <a href="#" class="desc">faded short sleeves t-shirt</a>
+                                <div class="price-box">
+                                    <span class="price">16$</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="product-image">
+                                <a href=""><img src="images/1.webp" alt=""></a>
+                                <a href="" class="new-mark">New</a>
+                                <div class="overlay-content">
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-search"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-shopping-cart"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-retweet"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa-regular fa-heart"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <a href="#" class="desc">faded short sleeves t-shirt</a>
+                                <div class="price-box">
+                                    <span class="price">16$</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="product-image">
+                                <a href=""><img src="images/5.webp" alt=""></a>
+                                <a href="" class="new-mark">New</a>
+                                <div class="overlay-content">
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-search"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-shopping-cart"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-retweet"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa-regular fa-heart"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <a href="#" class="desc">faded short sleeves t-shirt</a>
+                                <div class="price-box">
+                                    <span class="price">16$</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="product-image">
+                                <a href=""><img src="images/9.webp" alt=""></a>
+                                <a href="" class="new-mark">New</a>
+                                <div class="overlay-content">
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-search"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-shopping-cart"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-retweet"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa-regular fa-heart"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <a href="#" class="desc">faded short sleeves t-shirt</a>
+                                <div class="price-box">
+                                    <span class="price">16$</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="product-image">
+                                <a href=""><img src="images/product.png" alt=""></a>
+                                <a href="" class="new-mark">New</a>
+                                <div class="overlay-content">
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-search"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-shopping-cart"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-retweet"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa-regular fa-heart"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <a href="#" class="desc">faded short sleeves t-shirt</a>
+                                <div class="price-box">
+                                    <span class="price">16$</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="product-image">
+                                <a href=""><img src="images/1.webp" alt=""></a>
+                                <a href="" class="new-mark">New</a>
+                                <div class="overlay-content">
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-search"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-shopping-cart"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-retweet"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa-regular fa-heart"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <a href="#" class="desc">faded short sleeves t-shirt</a>
+                                <div class="price-box">
+                                    <span class="price">16$</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="product-image">
+                                <a href=""><img src="images/5.webp" alt=""></a>
+                                <a href="" class="new-mark">New</a>
+                                <div class="overlay-content">
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-search"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-shopping-cart"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-retweet"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa-regular fa-heart"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <a href="#" class="desc">faded short sleeves t-shirt</a>
+                                <div class="price-box">
+                                    <span class="price">16$</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="product-image">
+                                <a href=""><img src="images/9.webp" alt=""></a>
+                                <a href="" class="new-mark">New</a>
+                                <div class="overlay-content">
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-search"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-shopping-cart"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-retweet"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa-regular fa-heart"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <a href="#" class="desc">faded short sleeves t-shirt</a>
+                                <div class="price-box">
+                                    <span class="price">16$</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="product-image">
+                                <a href=""><img src="images/product.png" alt=""></a>
+                                <a href="" class="new-mark">New</a>
+                                <div class="overlay-content">
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-search"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-shopping-cart"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-retweet"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa-regular fa-heart"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <a href="#" class="desc">faded short sleeves t-shirt</a>
+                                <div class="price-box">
+                                    <span class="price">16$</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="product-image">
+                                <a href=""><img src="images/1.webp" alt=""></a>
+                                <a href="" class="new-mark">New</a>
+                                <div class="overlay-content">
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-search"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-shopping-cart"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-retweet"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa-regular fa-heart"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <a href="#" class="desc">faded short sleeves t-shirt</a>
+                                <div class="price-box">
+                                    <span class="price">16$</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="product-image">
+                                <a href=""><img src="images/5.webp" alt=""></a>
+                                <a href="" class="new-mark">New</a>
+                                <div class="overlay-content">
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-search"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-shopping-cart"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-retweet"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa-regular fa-heart"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <a href="#" class="desc">faded short sleeves t-shirt</a>
+                                <div class="price-box">
+                                    <span class="price">16$</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="product-image">
+                                <a href=""><img src="images/9.webp" alt=""></a>
+                                <a href="" class="new-mark">New</a>
+                                <div class="overlay-content">
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-search"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-shopping-cart"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-retweet"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa-regular fa-heart"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <a href="#" class="desc">faded short sleeves t-shirt</a>
+                                <div class="price-box">
+                                    <span class="price">16$</span>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <!-- Start Shooting Result -->
+                <div class="product-shooting-result">
+                    <div class="showing-item">
+                        <span>Showing 1 - 12 of 13 items</span>
+                    </div>
+                    <div class="show-next-prev">
+                            <ul class="pagination-bar">
+								<li class="disabled">
+									<a href="#"><i class="fa fa-chevron-left"></i>Previous</a>
+								</li>
+								<li class="active">
+									<a class="page-num" href="#">1</a>
+								</li>
+								<li>
+									<a class="page-num" href="#">2</a>
+								</li>
+								<li>
+									<a href="#">Next<i class="fa fa-chevron-right"></i></a>
+								</li>
+							</ul>
+                    </div>
+                    <button class="showAll-btn">Show All</button>
+                    <button class="compare-btn">Compare <i class="fa fa-angle-right" aria-hidden="true"></i></button>
+                </div>
+                <!-- End Shooting Result -->
+            </div>
+                <!-- End Right Conent -->
+        </div>
+    </section>
+    <!-- End Main Content Secion -->
+    <!-- start footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="top">
+                <div class="NEWSLETTER">
+                    <h2>NEWSLETTER</h2>
+                    <p>Subscribe to our mailing list to receive updates on new arrivals, special offers and other
+                        discount
+                        information.
+                    </p>
+                    <input type="email" placeholder="Enter Your e-mail">
+                    <button>Subscribe</button>
+                </div>
+                <div class="box1">
+                    <h2>STATIC BLOCK</h2>
+                    <hr>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi modi dicta sapiente, soluta sint
+                        libero
+                        nostrum natus amet eaque! Nesciunt nobis maxime consectetur labore repellat deserunt alias cum
+                        quasi
+                        praesentium.
+                    </p>
+                </div>
+                <div class="box2">
+                    <h2>STORE INFORMATION</h2>
+                    <hr>
+                    <ul>
+                        <li class="adrs">cairo,Obour,Alex .</li>
+                        <li class="call">+201068645370</li>
+                        <li class="email">Email:team@.bfcai</li>
+                    </ul>
+                </div>
+                <div class="box3">
+                    <img src="images/Egypt-EPS-map.png" alt="" style="width:70%;">
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="aboutus">
+                    <h2>About Us</h2>
+                    <hr>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas assumenda minus doloremque dolorem
+                        accusantium
+                        quis accusamus modi ut expedita tempor.
+                    </p>
+                    <h2 class="h2">followus</h2>
+                    <ul>
+                        <li><i class="fa-brands fa-facebook"></i></li>
+                        <li><i class="fa-brands fa-twitter"></i></li>
+                        <li><i class="fa-solid fa-wifi"></i></li>
+                        <li><i class="fa-brands fa-google"></i></li>
+                    </ul>
+                </div>
+                <div class="boxinfo">
+                    <h2>CATEGORIES</h2>
+                    <hr>
+                    <ul>
+                        <li>Women</li>
+                        <li>Men</li>
+                        <li>Clothing</li>
+                        <li>Kids</li>
+                    </ul>
+                </div>
+                <div class="boxinfo">
+                    <h2>INFORMATION</h2>
+                    <hr>
+                    <ul>
+                        <li>Specials</li>
+                        <li>Now Products</li>
+                        <li>Best Sellers</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </div>
+                <div class="boxinfo">
+                    <h2>MY ACCOUNT</h2>
+                    <hr>
+                    <ul>
+                        <li>My Orders</li>
+                        <li>My Credit Slips</li>
+                        <li>My Address</li>
+                        <li>My Personal Info</li>
+                        <li>Sign Out</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+</body>
+
+</html>
